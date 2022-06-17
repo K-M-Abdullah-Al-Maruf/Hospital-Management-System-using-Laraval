@@ -1,0 +1,64 @@
+Doctor 1:
+ Name: Dr.Stranger
+ Age: 35
+ Address: Marvel
+ Field: Orthopedic surgeon
+ Consultation Hour:
+ 1)12.30pm Is occupied by marufkhan   
+ 2)08.30pm is occupied by marufkhan   
+$
+
+Doctor 2:
+ Name: test
+ Age: 32
+ Address: no where
+ Field: everything
+ Consultation Hour:
+ 1)08.00am is Available   
+ 2)12.45pm is occupied by marufkhan   
+ 3)09.30pm is Available   
+$
+
+Doctor 3:
+ Name: testing
+ Age: 55
+ Address: testing
+ Field: fortest
+ Consultation Hour:
+ 1)04.30pm Available   
+ 2)09.30pm is occupied by y   
+ 3)10.30pm Available   
+$
+
+Doctor 4:
+ Name: fghdhg
+ Age: 555
+ Address: fghfhf
+ Field: fhfh
+ Consultation Hour:
+ 1)09.30am Available   
+ 2)12.00pm Available   
+ 3)09.30pm is occupied by marufkhan   
+$
+
+Doctor 5:
+ Name: new
+ Age: 26
+ Address: new
+ Field: new
+ Consultation Hour:
+ 1.09.30am Available   
+ 2.12.45pm Available   
+ 3.06.30pm Available   
+$
+
+Doctor 6:
+ Name: xyz
+ Age: 36
+ Address: dhaka
+ Field: none
+ Consultation Hour:
+ 1.09.30am Available   
+ 2.11.00am Available   
+ 3.12.30pm Available   
+$
