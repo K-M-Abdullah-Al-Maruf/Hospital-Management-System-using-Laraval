@@ -1,0 +1,3 @@
+21 Jul 2019 7:01:10 GMT: Log 'EclipseCompiler.txt' opened: 21 Jul 2019 7:01:10 GMT with name C:\Users\Maruf\Downloads\Documents\CSE\CSE-111 (RYB)\Project\src\com\company\EclipseCompiler.txt
+23 Jul 2019 15:12:19 GMT: Log 'EclipseCompiler.txt' opened: 23 Jul 2019 15:12:19 GMT with name C:\Users\Maruf\Downloads\Documents\CSE\CSE-111 (RYB)\Project\src\com\company\EclipseCompiler.txt
+27 Jul 2019 17:17:48 GMT: Log 'EclipseCompiler.txt' opened: 27 Jul 2019 17:17:48 GMT with name C:\Users\Maruf\Downloads\Documents\CSE\CSE-111 (RYB)\Project\src\com\company\EclipseCompiler.txt
