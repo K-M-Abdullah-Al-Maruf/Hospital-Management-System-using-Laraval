@@ -15,9 +15,7 @@ use App\Http\Controllers\adminController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+
 
 Route::get('/',[App\Http\Controllers\HomePageController::class, 'index']);
 
@@ -97,12 +95,4 @@ Route::get('/appointment/search', [App\Http\Controllers\patientController::class
 
 Route::get('/doctors', [App\Http\Controllers\homePageController::class, 'showDoctors']);
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
+

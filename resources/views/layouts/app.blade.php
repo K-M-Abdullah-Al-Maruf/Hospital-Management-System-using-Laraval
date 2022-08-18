@@ -323,13 +323,6 @@
                             </div>
                             <div>    
                                 <li style="list-style: none; float: left; padding-left: 40px"> <!--list-syle=none cz to remove the dot which appears before the menu name -->
-                                <a id="navbarDropdown" class="nav-link" href="{{ url('/aboutUs') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{"About Us"}}
-                                    </a>
-                                </li>
-                            </div>
-                            <div>    
-                                <li style="list-style: none; float: left; padding-left: 40px"> <!--list-syle=none cz to remove the dot which appears before the menu name -->
                                     <a id="navbarDropdown" class="nav-link" href="{{ url('/doctors') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{"Doctors"}}
                                     </a>
@@ -407,7 +400,6 @@
                     <div class="footer-col" style="padding-left: 50px">
                         <h4>Hospital</h4>
                         <ul>
-                            <li><a href="#">about us</a></li>
                             <li><a href="#">our services</a></li>
                             <li><a href="#">privacy policy</a></li>
                             <li><a href="#">affiliate program</a></li>
