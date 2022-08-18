@@ -99,4 +99,6 @@ Route::get('/appointment/search', [App\Http\Controllers\patientController::class
 
 Route::get('/doctors', [App\Http\Controllers\homePageController::class, 'showDoctors']);
 
+Route::get('/contacts', [App\Http\Controllers\homePageController::class, 'showContacts']);
+
 

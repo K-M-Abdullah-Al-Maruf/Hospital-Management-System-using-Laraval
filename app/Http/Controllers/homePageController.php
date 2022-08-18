@@ -17,4 +17,9 @@ class homePageController extends Controller
         $doctorData=doctors::all();
         return view("showDoctors", compact("doctorData"));
     }
+
+    public function showContacts()
+    {
+        return view("showContacts");
+    }
 }

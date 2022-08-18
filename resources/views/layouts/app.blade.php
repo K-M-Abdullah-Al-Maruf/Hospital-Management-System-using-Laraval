@@ -330,7 +330,7 @@
                             </div>
                             <div>    
                                 <li style="list-style: none; float: left; padding-left: 40px"> <!--list-syle=none cz to remove the dot which appears before the menu name -->
-                                    <a id="navbarDropdown" class="nav-link" href="{{ url('/contact') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    <a id="navbarDropdown" class="nav-link" href="{{ url('/contacts') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{"Contacts"}}
                                     </a>
                                 </li>

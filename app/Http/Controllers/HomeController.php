@@ -105,7 +105,8 @@ class HomeController extends Controller
         $user->email=$userData['email'];
         $user->contact_number=$userData['contact'];
         $user->address=$userData['address'];
-        $user->password=Hash::make($userData['password']);
+        if($userData['password'] != "")
+            $user->password=Hash::make($userData['password']);
         $user->save();
         
         $userData=User::find(Auth::User()->id);
