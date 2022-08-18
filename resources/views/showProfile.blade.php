@@ -79,7 +79,7 @@
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('New Password') }}</label>
 
                             <div class="col-md-6">
-                                <input type="password" id="password" name="password" >
+                                <input type="password" id="password" name="password" value="<?=$userData->address?>" class="form-control">
                             </div>
                         </div>
 

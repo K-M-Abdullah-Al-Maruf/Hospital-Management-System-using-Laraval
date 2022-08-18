@@ -289,6 +289,20 @@
                                     </li>
                                 </div>
                                 <div>    
+                                <li style="list-style: none; float: left; padding-left: 40px"> <!--list-syle=none cz to remove the dot which appears before the menu name -->
+                                    <a id="navbarDropdown" class="nav-link" href="{{ url('/doctors') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{"Doctors"}}
+                                    </a>
+                                </li>
+                                </div>
+                                <div>    
+                                    <li style="list-style: none; float: left; padding-left: 40px"> <!--list-syle=none cz to remove the dot which appears before the menu name -->
+                                        <a id="navbarDropdown" class="nav-link" href="{{ url('/showAppointmentList',$filterBy='All') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
+                                        {{"Appointment"}}
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>    
                                     <li style="list-style: none; float: left; padding-left: 40px"> <!--list-syle=none cz to remove the dot which appears before the menu name -->
                                         <a id="navbarDropdown" class="nav-link" href="{{ url('/pharmacy/showMediList',$sortBy='Default') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
                                         {{"Pharmacy"}}
@@ -299,13 +313,6 @@
                                     <li style="list-style: none; float: left; padding-left: 40px"> <!--list-syle=none cz to remove the dot which appears before the menu name -->
                                     <a id="navbarDropdown" class="nav-link" href="{{ url('/showCart',$sortBy='Default') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
                                         {{"Cart"}}
-                                        </a>
-                                    </li>
-                                </div>
-                                <div>    
-                                    <li style="list-style: none; float: left; padding-left: 40px"> <!--list-syle=none cz to remove the dot which appears before the menu name -->
-                                        <a id="navbarDropdown" class="nav-link" href="{{ url('/showAppointmentList',$filterBy='All') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
-                                        {{"Appointment"}}
                                         </a>
                                     </li>
                                 </div>
