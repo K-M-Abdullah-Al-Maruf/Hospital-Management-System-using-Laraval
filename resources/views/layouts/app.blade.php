@@ -335,13 +335,6 @@
                                     </a>
                                 </li>
                             </div>
-                            <div>    
-                                <li style="list-style: none; float: left; padding-left: 40px"> <!--list-syle=none cz to remove the dot which appears before the menu name -->
-                                    <a id="navbarDropdown" class="nav-link" href="{{ url('/pharmacy/showMediList',$sortBy='Default') }}" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{"Pharmacy"}}
-                                    </a>
-                                </li>
-                            </div>
                             
                         </div>
                         
