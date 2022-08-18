@@ -27,7 +27,7 @@
             <div class="flex-container" style="display: flex; padding:20px;margin-left:40px">
                 <div class="flex-container" style="display: flex; flex-direction: row;margine:20px; box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;background-color:white;">
                     <div style="padding-top: 30px;padding-left:10px; box-sizing: border-box">
-                        <pre><i><h4 style="margin: 0px"><p> We, the Anya family, stives to be not only the best within our neighbourhood <br> but also one of the best in the world. We are continiously racing towards that <br> goal while giving the possible best supports, care and treatment to our patients. <br> In the end, our patients matter us more then our goal. Because, <br> <center><h3><b>"Our goal's soul purpose is the wellbeing of our patients."</b></h3></center> </p></h4></i></pre>
+                        <pre><i><h4 style="margin: 0px"><p> We, the Anya family, stive not to be only the best within our neighbourhood <br> but also one of the best in the world. We are continiously racing towards that <br> goal while giving the possible best supports, care and treatments to our patients. <br> In the end, our patients matter us more than our goal. Because, <br> <center><h3><b>"Our goal's soul purpose is the well-being of our patients."</b></h3></center> </p></h4></i></pre>
                         
                     </div>
                 </div>

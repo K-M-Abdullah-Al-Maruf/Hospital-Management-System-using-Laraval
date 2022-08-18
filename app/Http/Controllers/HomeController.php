@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\todo_lists;
+use Illuminate\Support\Facades\Hash;
 
 $flag = False;
 
@@ -86,5 +87,28 @@ class HomeController extends Controller
         }
 
         return redirect()->back();
+    }
+
+    public function showProfile()
+    {
+
+        $userData=User::find(Auth::User()->id);
+        return view("showProfile",compact("userData"));
+    }
+
+    public function updateProfile()
+    {
+        $userData = $_GET;
+        $user=User::find(Auth::User()->id);
+
+        $user->name=$userData["name"];
+        $user->email=$userData['email'];
+        $user->contact_number=$userData['contact'];
+        $user->address=$userData['address'];
+        $user->password=Hash::make($userData['password']);
+        $user->save();
+        
+        $userData=User::find(Auth::User()->id);
+        return view("showProfile",compact('userData'));
     }
 }

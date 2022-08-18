@@ -25,6 +25,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
 
 Route::get('/dashboard/{todoData}', [App\Http\Controllers\HomeController::class, 'index']);
 
+Route::get('/profile', [App\Http\Controllers\HomeController::class, 'showProfile']);
+
+Route::get('/profile/update', [App\Http\Controllers\HomeController::class, 'updateProfile']);
+
 Route::get('/home/addTodoListData', [App\Http\Controllers\HomeController::class, 'addTodoListData']);
 
 Route::get('/home/addTodoListData/doneNremove/{id}/{done}', [App\Http\Controllers\HomeController::class, 'doneNremoveTodoListData']);

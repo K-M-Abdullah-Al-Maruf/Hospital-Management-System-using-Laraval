@@ -12,7 +12,7 @@ use App\Models\pharmacies;
 use App\Models\hospital_rooms;
 use App\Models\ambulances;
 use App\Models\appointments;
-
+use Illuminate\Support\Facades\Hash;
 
 class adminController extends Controller
 {
@@ -37,7 +37,7 @@ class adminController extends Controller
         $user_table->role = "r";
         $user_table->name = $recepCandData->name;
         $user_table->email = $recepCandData -> email;
-        $user_table->password = "default";
+        $user_table->password =Hash::make("default");
         $user_table->contact_number = $recepCandData->contact_number;
         $user_table->address = $recepCandData->Address;
         $user_table->save();
@@ -76,7 +76,6 @@ class adminController extends Controller
 
     public function addDoctor($id)
     {
-        echo("{{inside functi}}");
         $doctorCandData= doctor_applications::find($id);
         $doctor_table = new doctors;
         
